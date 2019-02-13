@@ -1,5 +1,8 @@
 # docker-lamp
-Docker example with Apache, MySql 5.7, PhpMyAdmin and Php
+
+Docker example with Apache, MySql 8.0, PhpMyAdmin and Php
+
+You can use MySql 5.7 if you checkout to the tag `mysql5.7`
 
 I use docker-compose as an orchestrator. To run these containers:
 
@@ -7,4 +10,7 @@ I use docker-compose as an orchestrator. To run these containers:
 docker-compose up -d
 ```
 
-That's it!
+Open phpmyadmin at localhost:8000
+Open web browser to look at a simple php example at localhost:8001
+
+Enjoy !
