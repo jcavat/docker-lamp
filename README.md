@@ -10,7 +10,7 @@ I use docker-compose as an orchestrator. To run these containers:
 docker-compose up -d
 ```
 
-Open phpmyadmin at localhost:8000
-Open web browser to look at a simple php example at localhost:8001
+Open phpmyadmin at [localhost:8000](localhost:8000)
+Open web browser to look at a simple php example at [localhost:8001](localhost:8001)
 
 Enjoy !
