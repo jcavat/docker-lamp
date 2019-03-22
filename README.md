@@ -15,7 +15,6 @@ Open web browser to look at a simple php example at [http://localhost:8001](http
 
 You can use mysql inside the container :
 
-- `docker-compose exec bd bash`
-- `mysql -u root -p` (use your password specified in docker-compose.yml)
+- `docker-compose exec db mysql -u root -p` 
 
 Enjoy !
