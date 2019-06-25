@@ -15,9 +15,13 @@
 
     <?php
 
-    // Connexion et sélection de la base
-    $conn = mysqli_connect('db', 'user', 'test', "myDb");
+	$cfg = include('config.php');
 
+    // Connexion et sélection de la base
+    $conn = new mysqli($cfg['db_host'], $cfg['db_user'], $cfg['db_pass'], $cfg['db_name']);
+    if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}
 
     $query = 'SELECT * From Person';
     $result = mysqli_query($conn, $query);
