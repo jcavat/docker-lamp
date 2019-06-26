@@ -2,7 +2,7 @@
 
 Docker example with Apache, MariaDB 10.1, PhpMyAdmin and Php 7
 
-Contribution to luca-vercelli for his contribution :heart:.
+Contribution to [luca-vercelli](https://github.com/luca-vercelli) for his contribution :heart:.
 
 I use docker-compose as an orchestrator. To run these containers:
 
