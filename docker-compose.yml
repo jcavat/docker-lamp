@@ -11,7 +11,6 @@ services:
         networks:
             - default
     db: # This service *must* be called 'db'
-        #image: mysql:8.0
         image: mariadb:10.1
         ports: 
             - 3306:3306

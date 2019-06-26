@@ -1,8 +1,8 @@
 # docker-lamp
 
-Docker example with Apache, MySql 8.0, PhpMyAdmin and Php
+Docker example with Apache, MariaDB 10.1, PhpMyAdmin and Php 7
 
-You can use MySql 5.7 if you checkout to the tag `mysql5.7`
+Contribution to luca-vercelli for his contribution :heart:.
 
 I use docker-compose as an orchestrator. To run these containers:
 
