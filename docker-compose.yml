@@ -35,6 +35,12 @@ services:
         environment:
             MYSQL_USER: user
             MYSQL_PASSWORD: test
-            MYSQL_ROOT_PASSWORD: test 
+            MYSQL_ROOT_PASSWORD: root
+    mysqlinit:
+        image: mysql:latest
+        volumes:
+            - ./myDb.sql:/dump/myDb.sql
+        command: bash -c "sleep 20 && mysql -h mysql -uroot -proot test < /dump/myDb.sql"
+            
 volumes:
     persistent:
