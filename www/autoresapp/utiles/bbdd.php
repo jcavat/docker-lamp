@@ -40,7 +40,7 @@ function cerrar_bbdd($conn){
  * Devuelve los Autores
  */
 function obtenerAutores(){
-    $query = createSELECT('Authors');
+    $query = createSELECT('Autores');
     $autores = [];
   // echo $query.'/n';
     try {
